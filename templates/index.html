@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sign Language</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sign Language Translator</title>
 </head>
 <body>
+    <h1 class="text-center text-7xl text-white bg-indigo-500 py-10 font-bold">Sign Language Translator</h1>
+    <div class="text-center">
+        <h4 class="text-xl py-5 font-bold">Welcome to sign language translator!</h4>
+        <p class="pb-5">
+            Enter a custom room name, and click join! <br>
+            Share the room name with your friends, so that they can join too!
+        </p>
 
+        <form id="room_form" method="POST">
+            <div class="input-group mb-3">
+                <input type="text" name="room_id" id="room_id" class="mt-1 w-80 px-3 py-2 bg-white border border-slate-300 text-sm shadow-sm placeholder-slate-400 rounded-xl" placeholder="Custom Room Name" autofocus required />
+                <input type="submit" value="Join" class="text-white mx-auto rounded-xl px-3 py-2 bg-sky-500 ring-1 ring-slate-900/5 shadow-lg space-y-3 hover:bg-indigo-900 hover:ring-indigo-900" style="cursor: pointer"/>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
