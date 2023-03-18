@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-archive/
+Dataset/
 __pycache__/
 *.csv
-=======
-archive/
->>>>>>> origin/main
+.ipynb_checkpoints/
